@@ -1,0 +1,25 @@
+{
+  "name": "ESPNATIVEUSBMIDI",
+  "version": "1.0.0",
+  "description": "Native USB MIDI for ESP32 S2 / S3",
+  "keywords": "midi, usb midi, esp32",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/iamthesoundman/ESPNATIVEUSBMIDI.git"
+  },
+  "authors":
+  [
+    {
+      "name": "iamthesoundman",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "fortyseveneffects/MIDI Library": "^5.0.2"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
