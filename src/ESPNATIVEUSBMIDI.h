@@ -1,5 +1,6 @@
 //
 // Created by jbars on 5/26/2023.
+// Based on https://github.com/adafruit/Adafruit_TinyUSB_Arduino/blob/master/src/arduino/midi/Adafruit_USBD_MIDI.h
 //
 
 
@@ -11,10 +12,6 @@
 #include "esp_event.h"
 #include "class/midi/midi.h"
 #include "class/midi/midi_device.h"
-
-#define ESP_MIDI_PROTOCOL_MODE_BOOT          0x00      // Boot Protocol Mode
-#define ESP_MIDI_PROTOCOL_MODE_REPORT        0x01      // Report Protocol Mode
-
 
 enum MidiMessageCodes : uint8_t {
     NoteOff = 0x80,

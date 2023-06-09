@@ -1,5 +1,6 @@
 //
 // Created by jbars on 5/26/2023.
+//https://github.com/adafruit/Adafruit_TinyUSB_Arduino/blob/master/src/arduino/midi/Adafruit_USBD_MIDI.cpp
 //
 
 #include "ESPNATIVEUSBMIDI.h"
@@ -7,13 +8,6 @@
 #if CONFIG_TINYUSB_MIDI_ENABLED
 #include "esp32-hal-tinyusb.h"
 #include "USB.h"
-
-enum
-{
-    ITF_NUM_MIDI = 0,
-    ITF_NUM_MIDI_STREAMING,
-    ITF_NUM_TOTAL
-};
 
 #define EPOUT 0x00
 #define EPIN 0x80
